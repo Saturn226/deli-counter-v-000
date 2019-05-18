@@ -2,7 +2,7 @@
 def line(katz_deli)
   message = "The line is currently: "
   if katz_deli.length == 0
-    puts "The line is currently empty"
+    puts "The line is currently empty."
   else
     kaze_deli.each do |name, index|
       message += "#{index + 1}. #{name}"
