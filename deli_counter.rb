@@ -7,6 +7,7 @@ def line(katz_deli)
     kaze_deli.each do |name, index|
       message += "#{index + 1}. #{name}"
     end
+  end
 end
 
 def take_a_number
